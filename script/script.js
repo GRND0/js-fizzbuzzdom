@@ -1,10 +1,11 @@
 
 // contatore 1-100
 
-for (let i = 0 ; i <= 100; i++ ) {
+for (let i = 1 ; i <= 100; i++ ) {
    
 // identificatore fizz,buzz & fizzbuzz    
-    let multiplo ;
+    let multiplo = i; // undefined
+
     if (i % 3 === 0) {
         multiplo = "Fizz" ;
        
@@ -12,12 +13,11 @@ for (let i = 0 ; i <= 100; i++ ) {
         multiplo = "Buzz" ;
        
     } if (i % 3 === 0 && i % 5 === 0 ) {
-        multiplo ="FizzBuzz" ;
+        multiplo = "FizzBuzz" ;
     }
 
-    console.log(i, multiplo);
-
-    } 
+    console.log(multiplo);
+} 
 
 
 
