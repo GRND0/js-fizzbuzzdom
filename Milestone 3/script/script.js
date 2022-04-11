@@ -17,7 +17,7 @@ for (let i = 1 ; i <= 100; i++ ) {
         multiplo = "fizzbuzz" ;
     }
     //stampa nell'html
-    rowWrapper.innerHTML +=  `<div class="box">${multiplo}</div>` 
+    rowWrapper.innerHTML +=  `<div class="box ${multiplo}">${multiplo}</div>` 
 } 
 
 

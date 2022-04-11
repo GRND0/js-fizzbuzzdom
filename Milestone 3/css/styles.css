@@ -1,0 +1,45 @@
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+}
+
+body {
+    background-color: #083b4c ;
+}
+
+.container {
+    width: 80% ;
+    margin: auto ;
+}
+
+.row {
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-between ;
+}
+
+.box {
+    width: 100px ;
+    height: 100px ;
+    line-height: 100px ;
+    text-align: center ;
+    background-color: #1389b2 ;
+    margin: 1rem 1rem ;
+
+}
+
+.fizz {
+    background-color: #0bd6a1 ;
+
+}
+
+.buzz {
+    background-color: #ffd166 ;
+
+}
+
+.fizzbuzz {
+    background-color: #f0466f ;
+
+}
